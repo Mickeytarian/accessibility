@@ -11,7 +11,10 @@ body {
   color: #685F5F;
 }
 
-p {margin-bottom: 1.3em;}
+p {
+	margin-bottom: 1.3em;
+	color: rgb(0, 0, 0);
+}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
@@ -25,13 +28,25 @@ h1 {
   color: rgb(54, 8, 8);
 }
 
-h2 {font-size: 1.728em;}
+h2 {
+	font-size: 1.728em;
+	color: rgb(0, 0, 0);
+}
 
-h3 {font-size: 1.44em;}
+h3 {
+	font-size: 1.44em;
+	color: rgb(0, 0, 0);
+}
 
-h4 {font-size: 1.2em;}
+h4 {
+	font-size: 1.2em;
+	color: rgb(0, 0, 0);
+}
 
-small, .small {font-size: 0.833em;}
+small, .small {
+	font-size: 0.833em;
+	color: rgb(0, 0, 0);
+}
 
 .container {
   max-width: 700px;
@@ -52,7 +67,7 @@ a:hover {
 }
 
 .header {
-  background: #7F4F21;
+  background: #808080;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-bottom: 1em;
@@ -64,6 +79,7 @@ table {
 th,td {
   padding: .75em .5em;
   border-bottom: 1px solid #ddd;
+  color: rgb(0, 0, 0);
 }
 th {
   text-align: right;
